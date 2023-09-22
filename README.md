@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import hasProp from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-property@esm/index.mjs';
+import hasProp from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-property@v0.1.0-esm/index.mjs';
 ```
 
 #### hasProp( value, property )
@@ -123,7 +123,7 @@ bool = hasProp( value, 'bap' );
 <body>
 <script type="module">
 
-import hasProp from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-property@esm/index.mjs';
+import hasProp from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-property@v0.1.0-esm/index.mjs';
 
 var bool = hasProp( { 'a': 'b' }, 'a' );
 // returns true
