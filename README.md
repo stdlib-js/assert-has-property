@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import hasProp from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-property@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-has-property/tags). For example,
+
+```javascript
 import hasProp from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-property@v0.2.0-esm/index.mjs';
 ```
 
@@ -123,7 +128,7 @@ bool = hasProp( value, 'bap' );
 <body>
 <script type="module">
 
-import hasProp from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-property@v0.2.0-esm/index.mjs';
+import hasProp from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-property@esm/index.mjs';
 
 var bool = hasProp( { 'a': 'b' }, 'a' );
 // returns true
