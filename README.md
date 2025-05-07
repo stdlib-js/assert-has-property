@@ -29,7 +29,7 @@ limitations under the License.
   <p>To join us in bringing numerical computing to the web, get started by checking us out on <a href="https://github.com/stdlib-js/stdlib">GitHub</a>, and please consider <a href="https://opencollective.com/stdlib">financially supporting stdlib</a>. We greatly appreciate your continued support!</p>
 </details>
 
-# hasProperty
+# hasProp
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
@@ -65,7 +65,7 @@ var hasProp = require( '@stdlib/assert-has-property' );
 
 #### hasProp( value, property )
 
-Returns a `boolean` indicating if a `value` has a specified `property`, either own or inherited.
+Returns a boolean indicating if a `value` has a specified `property`, either own or inherited.
 
 ```javascript
 var value = {
@@ -100,14 +100,14 @@ bool = hasProp( value, 'bap' );
     // returns false
     ```
 
--   Value arguments other than `null` or `undefined` are coerced to `objects`.
+-   Value arguments other than `null` or `undefined` are coerced to objects.
 
     ```javascript
     var bool = hasProp( 'beep', 'length' );
     // returns true
     ```
 
--   Non-symbol property arguments are coerced to `strings`.
+-   Non-symbol property arguments are coerced to strings.
 
     ```javascript
     var value = {
@@ -131,7 +131,7 @@ bool = hasProp( value, 'bap' );
 
 ## Examples
 
-<!-- eslint-disable object-curly-newline, object-curly-spacing -->
+<!-- eslint-disable object-curly-newline, object-curly-spacing, stdlib/eol-open-bracket-spacing -->
 
 <!-- eslint no-undef: "error" -->
 
@@ -207,7 +207,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
