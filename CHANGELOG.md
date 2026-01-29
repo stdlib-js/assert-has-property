@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-11)
+## Unreleased (2026-01-29)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`5bfe900`](https://github.com/stdlib-js/stdlib/commit/5bfe90097b8de743489f2859f1f2f01911961740) - **docs:** use abbreviated alias _(by Athan Reines)_
 -   [`49f901a`](https://github.com/stdlib-js/stdlib/commit/49f901a5b29fa9d967e1f15750f06a5338c29b9c) - **docs:** use consistent alias _(by Athan Reines)_
 
@@ -25,9 +26,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Philipp Burckhardt
 
 </section>
 
